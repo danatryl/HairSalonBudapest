@@ -1,0 +1,103 @@
+
+#title {
+  background-color: #EDE4E0; position: static;
+}
+
+h1, h2, h3 {  font-family: "DM Serif Display";}
+h2 {line-height: 1.5; text-align: center; padding-top: 40px;}
+h3 {font-size: 2rem;}
+.bekezd {font-size: 2.8rem;}
+.bekezd2 {margin-bottom: 6%;}
+.nav-item {color: black; font-weight: bold;}
+.szolga {padding-bottom: 15px;}
+
+.heading1 {font-family: "DM Serif Display";  font-size: 3.4rem;  line-height: 1.5; padding: 30px; text-align: left; padding-bottom: 60px;}
+
+.colored-section {background-color: #EDE4E0;}
+
+.white-section {background-color: #C8DBBE;}
+
+.képek {text-align: center; background-color: #EDE4E0;}
+
+div.container-fluid {
+  padding: 2% 15%;
+}
+#arlista {
+  padding: 2% 15%;
+}
+.title1 {
+  padding: 2% 15%;
+}
+
+.motto {padding: 5%; font-size: 1.5rem;}
+
+.logo1 {width: 100%; position: relative; right: 40px;}
+
+a.navbar-brand {
+  font-size: 3rem; font-family: "Ubuntu";
+}
+
+galeria.body {background-color: #EDE4E0; position: relative;}
+
+img.img1 { width: 120%; transform: rotate(0deg); position: relative; left: 80px; bottom: 90px; z-index: 0; margin-bottom: 0px; padding-bottom: 0px; border-radius: 20%;}
+
+nav.navbar {padding-bottom: 60px; }
+
+li.nav-item {padding: 0px 20px; font-size: 1.2rem;}
+
+button.buttonka {margin: 10%; position: relative; left: 30px; font-weight: bold;}
+button.buttonka1 {margin: 2%;}
+
+#features {text-align: center; padding: 0% 15% 0%; z-index: 1; position: relative; }
+
+.fa-scissors {font-size: 300%; padding-bottom: 20px;}
+.fa-leaf {font-size: 300%; padding-bottom: 20px;}
+.fa-ruler-vertical {font-size: 300%; padding-bottom: 20px;}
+
+#features p {font-size: 1.2rem; font-family: "Ubuntu";}
+
+.icon {color: #ef8172;}
+.icon:hover {
+  color: #F05454;
+}
+
+.carousel-inner {padding: 7% 15%; text-align: center;}
+
+.munkakép { width: 20%; border-radius: 20%; margin: 20px;}
+.munkakép1 { width: 20%; border-radius: 20%; margin: 20px;}
+
+
+#pricing {padding: 40px; text-align: center; font-family: "Ubuntu";}
+
+#cta { text-align: center; font-family: "DM Serif Display"; padding: 50px; line-height: 1.5;}
+.love {font-size: 2.8rem;}
+.butik {margin: 1%;}
+.nyitva {font-size: 2.5rem;}
+.tel {font-size: 2rem; font-family: "DM Serif Display"; text-decoration: none; color: #9F8772; margin: 5%;}
+.cím {font-size: 1.6rem; font-family: "Ubuntu";}
+.idő {font-family: "Ubuntu";}
+.hairblog {margin: 5%; font-size: 3rem;}
+#footer { text-align: center; padding: 50px;}
+.fasz {margin: 2% 3%; font-size: 1.8rem; color: black;}
+#dolgozz {text-align: left; padding: 2% 20%;}
+.velünk {text-align: center; font-weight: bold; font-size: 1.5rem;}
+.szöveg1 {padding-bottom: 15%;}
+.árlista {padding-bottom: 10%;}
+.eláll {padding-top: 10%;}
+
+@media (max-width: 1030px) {
+  img.img1 { transform: rotate(0deg); width: 90%; position: static;}
+  h1 {text-align: center;}
+  #title {text-align: center;}
+  .buttonka {position: relative; right: 40px; z-index: 2;}
+  .munkakép {width: 50%;}
+  .logo1 {width: 80%; position: static;}
+  .navbaba {position: relative; left: 70px;}
+}
+@media (min-width: 1000px) {
+  .logo1 {width: 180%;}
+}
+
+@media (max-width: 1000px) {
+  .munkakép1 {width: 24%;}
+}
